@@ -9,5 +9,4 @@
   // Print the output
   echo "<pre>$output</pre>";
   
-  echo var_dump($output);
 ?>
