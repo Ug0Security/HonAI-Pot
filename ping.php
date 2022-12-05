@@ -4,7 +4,7 @@
   $host = escapeshellcmd($_GET['host']);
 
   // Execute the ping command and store the output in a variable
-  $output = shell_exec("/var/www/html/honey/openia.sh $host");
+  $output = shell_exec("/var/www/html/honey/openai.sh $host");
 
   // Print the output
   echo "<pre>$output</pre>";
