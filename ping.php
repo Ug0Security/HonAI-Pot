@@ -7,6 +7,6 @@
   $output = shell_exec("/var/www/html/honey/openai.sh $host");
 
   // Print the output
-  echo "<pre>$output</pre>";
+  echo '<pre>'.str_replace('\n', "\n", $output).'</pre>';
   
 ?>
